@@ -14,7 +14,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 	<meta name="viewport" content="width=device-width" />
-	<title>Capabiliti LMS and Training Courses</title>
+	<title>Drop source</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Capabiliti is a B2B training marketplace consisting of training courses and custom training programs delivered on an award winning LMS. Learn more" />
 
