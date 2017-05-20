@@ -1,0 +1,77 @@
+# Author:    Sujeet Kumar
+# Created:   13 Feb 2017
+
+RewriteEngine on
+
+# Changes query string to directory
+##RewriteRule ^training-marketplace/([^/]+)/?$ training-marketplace.php?course_category=$1 [QSA]
+#RewriteRule ^training-marketplace/([^/]+)/([^/]+)/?$ training-marketplace.php?course_category=$1&page=$2
+
+##RewriteCond %{HTTP_HOST} ^www\.capabiliti\.co$
+#RewriteRule ^/?$ "http\:\/\/capabiliti\.co\/" [R=301,L]
+
+#RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
+#RewriteRule .* ? [F,L]
+
+
+#301 redirects
+#Redirect 301 /all-wizards /training-marketplace.php
+#Redirect 301 /all-wizard.php /training-marketplace.php
+#Redirect 301 /all-wizards.php /training-marketplace.php
+
+#RewriteCond %{REQUEST_FILENAME}.php -f
+#RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]
+
+#ErrorDocument 404 /404.php
+ 
+# Turn on Expires and set default to 0
+#ExpiresActive On
+#ExpiresByType text/javascript "access plus 1 month"
+#ExpiresByType text/x-javascript "access plus 1 month"
+#ExpiresByType application/javascript "access plus 1 month"  
+#ExpiresByType application/x-javascript "access plus 1 month"
+#ExpiresDefault A0
+ 
+# Set up caching on media files for 1 year (forever?)
+<FilesMatch "\.(flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav)$">
+ExpiresDefault A29030400
+Header append Cache-Control "public"
+</FilesMatch>
+ 
+# Set up caching on media files for 1 week
+<FilesMatch "\.(gif|jpg|jpeg|png|swf)$">
+ExpiresDefault A604800
+Header append Cache-Control "public"
+</FilesMatch>
+ 
+# Set up 2 Hour caching on commonly updated files
+<FilesMatch "\.(xml|txt|js|css)$">
+ExpiresDefault A604800
+Header append Cache-Control "proxy-revalidate"
+</FilesMatch>
+ 
+<FilesMatch "\.(js|css|xml|gz)$">
+Header append Vary Accept-Encoding
+</FilesMatch>
+ 
+# Force no caching for dynamic files
+<FilesMatch "\.(php|cgi|pl|htm)$">
+ExpiresActive Off
+Header set Cache-Control "private, no-cache, no-store, proxy-revalidate, no-transform"
+Header set Pragma "no-cache"
+</FilesMatch>
+ 
+AddEncoding gzip .gz
+<Files *.css.gz>
+  ForceType text/css
+</Files>
+<Files *.js.gz>
+  ForceType text/javascript
+</Files>
+<FilesMatch .*\.(js|css)>
+  RewriteEngine On
+  RewriteCond %{HTTP_USER_AGENT} !MSIE
+  RewriteCond %{HTTP:Accept-encoding} gzip
+  RewriteCond %{REQUEST_FILENAME}.gz -f
+  RewriteRule ^(.*)$ $1.gz [L]
+</FilesMatch>

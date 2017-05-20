@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://capabiliti.co/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://capabiliti.co/terms-of-service</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://capabiliti.co/about-us</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://capabiliti.co/privacy-policy</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+</urlset>
