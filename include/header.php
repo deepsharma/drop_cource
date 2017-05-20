@@ -36,6 +36,7 @@
 	<link rel="stylesheet" href="css/custom-style.css">
 	<link rel="stylesheet" href="css/intlTelInput.css">
 	<link rel="stylesheet" href="css/viewer.css">
+	<link rel="stylesheet" href="css/custom.css">
 	
 	<!-- Font icon -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

@@ -1,0 +1,150 @@
+.mr-20{margin-right:20px;} 
+.mr-40{margin-right:40px;} 
+.mt-20{margin-top:20px;} 
+.ml-20-p{margin-left:20%;}
+/*How it works styles*/
+.how_it_container{
+ background-image:url('../images/container-pics.jpg');
+ background-repeat: no-repeat;
+ background-size:cover;
+ min-height:650px;
+ }
+ .how_it_container .how_it_head{
+    font-size: 45px;
+    padding-left: 13%;
+    padding-top: 1.5%;
+	color: rgb(64, 64, 64);
+ }
+
+ .container-dialog-right{
+	width: 383px;
+    min-height: 108px;
+	box-shadow: black 0px 0px 10px 0px;
+    background-image: linear-gradient(rgb(254, 254, 254) 0%, rgb(230, 226, 226) 100%);
+ }
+ 
+ .container-dialog-right .container-dialog-text{
+	font-family: Questrial;
+    color: rgb(64, 64, 64);
+    font-size: 20px;
+ }
+ 
+ .container-dialog-right .straight-line-sep{
+	margin-top:10px;
+	margin-left:20px;
+	text-align:center;
+	width: 342px;
+	min-height: 2px;
+	background-color:#ccc
+ }
+ .container-dialog-right .dialog-right-head{
+	font-size: 29px;
+	color: rgb(64, 64, 64);
+	letter-spacing: 0px;
+    line-height: 1.2;
+    font-weight: 600; 
+ }
+ .container-dialog-left{
+    width: 756px;
+    min-height: 144px;
+    box-shadow: black 0px 0px 10px 0px;
+    background-image: linear-gradient(rgb(254, 254, 254) 0%, rgb(230, 226, 226) 100%);
+	 
+ }
+ .container-dialog-left .dialog-left-head{
+	font-family: Questrial;
+	font-size: 29px;
+    color: rgb(64, 64, 64);
+    letter-spacing: 0px;
+    line-height: 1.2;
+    font-weight: 600;
+	text-align: left;
+    padding-left: 10px;
+    word-wrap: break-word;
+	border-radius: 5px;
+    letter-spacing: 0px;
+    line-height: 1.2;
+ }
+ 
+ .straight-line-sep-bottom{
+	margin-top:10px;
+	margin-left:20px;
+	text-align:center;
+	width: 95%;
+	min-height: 2px;
+	background-color:#ccc
+ }
+ 
+ 
+.boxed-container{
+	
+	width: 257px;
+	min-height: 207px; 
+	background-color:#405359;	
+	border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: black 0px 0px 10px 0px, black 0px 0px 2px 0px inset;	
+} 
+ .boxed-container-head{
+	 font-family: Questrial;
+    color: #fff;
+    font-size: 29px;
+	margin-bottom:15px;
+	}
+.boxed-container-text{
+	background: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    letter-spacing: 0px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.bottom-text-dialog{
+	background-image: linear-gradient(rgb(240, 243, 244) 0%, rgb(226, 232, 234) 100%); 
+}
+.bottom-text-dialog-main-container{
+	padding-top:50px;
+	padding-bottom:80px;
+	padding-left:10%;
+	padding-right:10%;
+}	
+.bottom-text-dialog-inner-container{
+	min-height: 418px;
+	background-color:#fff;
+	color:#000;
+	box-shadow: black 0px 0px 10px 0px;
+} 
+.bottom-text-para{padding-top: 20px;
+    padding-bottom: 20px;font-size:27px;font-family: Questrial;
+        color: rgb(115, 115, 115);}
+		
+#footers .social {
+padding-top:10px;
+	text-align: center;
+	margin-bottom: 0;
+}
+#footers .social li {
+	display: inline-block;
+	margin-right: 15px;
+}
+#footers a {
+	color: #fff;
+}
+#footers .social li a {
+	font-size: 26px;
+}
+.top-footer-area{
+	min-height: 418px;
+	background-image: linear-gradient(rgb(13, 152, 166) 0%, rgb(11, 130, 142) 100%);
+	
+}	
+.top-footer-area-content{
+	min-height:418px;background-image:url(images/dropsource-graphics2.png);background-repeat: repeat-y;
+}
+.top-footer-sharing{font-size:42px;color:#fff;}	
+.sharing-text{font-size:37px;color:#fff;line-height:46px}
+.sharing-text-small{font-size:18px;color:#fff}
+/*How it works styles ends*/

@@ -201,85 +201,133 @@ require 'include/header.php';
 			</div>
 		</div>
 
-		
-	
 
-		<div class="fh5co-project-style-2" id="partner-section">
-				<div class="row p-b " style="margin:0px">
-				<div class="col-xs-12 col-md-6 text-center">
-					<div style="float:left">
-					<img src="images/website_d800.png" width="100%" height="245px" >
-					</div>
-					<div style="float:left">
-					<img src="images/website_d800.png" width="100%" height="245px" >
-						</div>	
-					</div>
-					<div class="col-xs-12 col-md-6 text-center " >
-						<div style="float:left">
-					<img src="images/china-sites.png" width="100%" height="245px" >
-					</div>
-					<div style="float:left">
-					<img src="images/china-sites.png" width="100%" height="245px" >
-					</div>
-					</div>
+		<div class="fh5co-project-style-2 how_it_container" id="partner-section">
+			<div class="row p-b " style="margin:0px" >
+				<div class="col-md-12" >
+				<h1 class="how_it_head">How it works<h1>
+				</div>
 			</div>
-		</div>
-		
-		
-		
-		
-
-		<div class="fh5co-blog-style-1" style= " height:450px;padding-bottom: 0px !important;background-image: url('http://localhost/capabiliti/images/23837758_lelo.png') ;background-position: center;">
-			<div class="container" style="">
-				<div class="row" style="">
-
-					<div class="col-md-12 text-center " >
-					<h2>Video Player</h2>
-					<div><img src="images/maxresdefault.jpg" width="40%" height="300px" >
-				</div>
-				<div class="row p-b">
+			
+			<div class="row p-b " style="margin:0px" >
+					<div class="col-xs-12 col-md-7 text-center">
 					
+						<div class="container-dialog-left">
+							<div class="dialog-left-head">
+							Drop Source saves you money through group purchasing. 
+							Our platform provides collaborative 
+							opportunities for businesses buying from Chinese
+							marketplaces, revealing greater wholesale
+							discounts as the order develops.
+							</div>
+						</div>
 					
-					
-					<div class="clearfix visible-sm-block"></div>
-				</div>
+					</div><!-- right dialog ends -->
+					<div class="col-xs-12 col-md-5 text-center " >					
+						<div class="container-dialog-right" >
+							<div class="dialog-right-head">Explore exclusive deals</div>
+							<div class="straight-line-sep"></div>
+							<p class="container-dialog-text">Using the search and filter bar </p>
+						</div>
+						
+						<div class="container-dialog-right" style="margin-top:20px;">
+						<div class="dialog-right-head">Submit your own inventory</div>
+						
+							<div class="straight-line-sep"></div>
+							<p class="container-dialog-text">Make a new trend </p>
+						</div>
+						
+					</div><!-- Left dialog ends -->
 				
+					</div>
+					
+					<div class="row p-b text-center" style="margin:0px" >
+						<div class="col-xs-12 col-md-4 text-center boxed-container mr-40 ml-20-p">
+							<h1 class="boxed-container-head">Connect</h1>
+							<p class="boxed-container-text">Add to a current campaign or submit a link of the product you want to make savings on. ​​</p>
+						</div>
+						
+						<div class="col-xs-12 col-md-4 text-center boxed-container mr-40">
+							<h1 class="boxed-container-head">Purchase</h1>
+							<p class="boxed-container-text">Select amount of units you require and wait for others to purchase more units  
+of the same product.​. ​​</p>
+						</div>
+						
+						<div class="col-xs-12 col-md-4 text-center boxed-container">
+							<h1 class="boxed-container-head">Save</h1>
+							<p class="boxed-container-text">When units reach higher levels of wholesale prices, all will share lower unit prices. ​​</p>
+						</div>
+						
+						<!-- container box dialog ends -->
+					</div>
+					
+			</div>
+		</div>		
+		
+
+		<div class="fh5co-blog-style-1 bottom-text-dialog">
+			<div class="container" >
+				<div class="row" >
+
+					<div class="col-md-12 text-center bottom-text-dialog-main-container">
+					<div class="bottom-text-dialog-inner-container">
+						<p class="bottom-text-para" >
+						Now Alibaba.com is the largest retailer in the world. We know that more companies are looking to buy inventory from Asia. We have invented a tool that converts any listings from Alibaba and other Asian selling platforms in to our own group purchase campaign, where members of our community share the advantages of buying together!
+						</p>
+						<div class="straight-line-sep-bottom"></div>
+						<p class="bottom-text-para" >Buying together increases the order quantity, unlocking otherwise unreachable wholesale prices and removing minimum order quantities.</p>
+						<div class="straight-line-sep-bottom"></div>
+						<p class="bottom-text-para"  >Our platform gives you the option to simply submit the HTML of the exact product you want for others to add orders to, or add your orders to a current campaign.</p>
+						
+					</div>
+					</div>
 		</div>
 		</div>
 		</div>
 		
-		<div class="popup-overlay-container" style="position: fixed; visibility: hidden; top: 0px; left: 0px; width: 1349px; height: 442px;">
-		<div class="popup-background" style="background: rgb(0, 0, 0); opacity: 0.85;"></div>
-		<div class="popup-wrapper no-localization">
-		<div class="popup-overlay default video-popup single-item-popup no-title no-description no-thumbs" id="popup-weak4">
-		<div class="_close-button _popup-control-element close-button ignore-swipe viewer-font-icon viewer-font-icon-slide-show-close button state-enabled state-displayed custom-cursor" style="color: rgb(255, 255, 255); text-shadow: black 0px 0px 1px;"> <div class="close-button-background _popup-control-background" style="background: rgb(255, 255, 255);"></div> </div>
-		<div class="popup-header"></div> <div class="footer"> <div class="thumbs-container"><div class="slideshow-thumbs-container"> <div class="slideshow-thumbs-content"> 
-		<ul class="thumbs _thumbs items-list state-non-empty">
-		<li class="thumb _thumb state-loading state-displayed items-list-item items-list-weak2156 state-filtered">
-		<div class="image-thumb"> <div class="image"> <img> <div class="current-cover"></div> </div> </div></li></ul> 
-		</div> </div></div> </div> <div class="slideshow-container"> <div class="carousel-container"><div class="slideshow-carousel-container">
-		<ul class="carousel-items _carousel-items items-list state-non-empty">
-		<li class="carousel-item state-displayed items-list-item items-list-weak2148 state-filtered current" style="display: list-item;">
-		<div class="no-link"> <div class="video vertically-align-children _popup-image-background" style="width: 672px; height: 378px; left: 314.5px; top: 0px; opacity: 1; transform: none; background: rgb(26, 26, 26);"> <img class="vertically-centered" src="https://i.ytimg.com/vi/0Dh0uQ-HvZI/maxresdefault.jpg">
-		<div class="image-text _popup-font-family _popup-text-color" style="font-family: &quot;Open Sans&quot;; color: rgb(255, 255, 255);">
-		<div class="background _popup-text-background-color" style="background: rgb(0, 0, 0); opacity: 0.5;"></div> <h1 class="title">Drop Source video</h1>
-		<div class="description">What we do.</div> <div class="numbers-container"> <span class="index">1</span>/<span class="total-items">1</span> 
-		</div> <a href="#" target="_blank" class="_item-link link ignore-swipe _popup-link-text-color" style="color: rgb(255, 255, 255);">Go To Link</a>
-		</div> <div class="video-container playing"> 
-		<div class="play-button viewer-font-icon viewer-font-icon-popup-play-2"></div>
-		<iframe type="text/html" width="100%" height="100%" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" id="widget10" src="https://www.youtube.com/embed/0Dh0uQ-HvZI?controls=1&amp;loop=0&amp;enablejsapi=1&amp;origin=http%3A%2F%2Fdropsource.co.uk"></iframe></div> </div> </div></li></ul> </div></div> <div class="_prev-button _popup-control-element navigation-button prev ignore-swipe button state-enabled state-displayed custom-cursor" style="color: rgb(255, 255, 255); text-shadow: black 0px 0px 1px;"> <div class="navigation-button-background _popup-control-background" style="background: rgb(255, 255, 255);"></div>
-		<div class="icon-container viewer-font-icon viewer-font-icon-slide-show-arrow-prev"></div> </div>
-		<div class="_next-button _popup-control-element navigation-button next ignore-swipe button state-enabled state-displayed custom-cursor" style="color: rgb(255, 255, 255); text-shadow: black 0px 0px 1px;">
-		<div class="navigation-button-background _popup-control-background" style="background: rgb(255, 255, 255);"></div> 
-		<div class="icon-container viewer-font-icon viewer-font-icon-slide-show-arrow-next"></div> </div> </div> 
-		</div></div></div>
+		<div class="fh5co-blog-style-1 top-footer-area">
+			<div class="container" >
+				<div class="row top-footer-area-content">
 
-					
+					<div class="col-md-12 text-center">
+					<h1 class="top-footer-sharing">Sharing</h1>
+					<div id="footers" class="text-center">
+					<ul class="social">
+                            <li>
+                                <a href="https://www.facebook.com/The-Qustn-Cafe-1629769613974529/" class="Facebook" target="_blank">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/TeamCapabiliti" class="Twitter" target="_blank">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/company/capabiliti-by-qustn" class="Linkedin" target="_blank">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/+QustnTech" class="Google Plus" target="_blank">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                            </li>
+                        </ul>
+						</div>
+					 <div class="sharing-text">
+					 Sharing listings you have collaborated on will increase<br>your chances of reaching lower prices per unit
+					 </div>
+					 <div><p class="sharing-text-small">Download this image here and upload on your social media</p>
+					 <img src="images/were-on-fratsy-ad_d200.png">
+					 </div>
+					</div>
+		</div>
+		</div>
+		</div>
+		
+		<!-- text-container dialog ends -->
+
 						
 								
 <?php include 'include/footer.php'; ?>
-<?php include 'include/forms/interested_in_content_form.php'; ?>
-<?php include 'include/forms/i_want_a_demo_form.php'; ?>
-<?php include 'include/forms/become_content_partner_form.php'; ?>
-<?php include 'include/forms/become_product_partner_form.php'; ?>
-<script src="js/custom/form-handler.js"></script>
